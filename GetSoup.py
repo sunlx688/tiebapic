@@ -15,3 +15,8 @@ class get_soup:
             return soup
         else:
             print('您访问页面不存在！')
+
+
+# url = 'http://tieba.baidu.com/p/4226024634?pn=2'
+# gs = get_soup()
+# print(gs.get_soup(url))
