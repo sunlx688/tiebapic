@@ -25,11 +25,3 @@ class get_one_tie_pages:
             PAGES.append(page)
             page_num += 1
         return PAGES
-
-
-# url = 'http://tieba.baidu.com/p/3081354059?pn=1'
-# url='http://tieba.baidu.com/p/4254370280?pn=1'
-# gotp = get_one_tie_pages(url)
-# print(gotp.get_max_page_num())
-# print(type(gotp.get_max_page_num()))
-# print(gotp.get_pages())

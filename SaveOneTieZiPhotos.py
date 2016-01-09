@@ -56,10 +56,3 @@ class save_one_tie_zi_photos:
                     sleep(self.RANDOM_NUM)
             PAGE_NUM += 1
             # print('本帖子的图片已保存完成！')
-
-
-# url = 'http://tieba.baidu.com/p/3081354059?pn=1'
-# url = 'http://tieba.baidu.com/p/4254370280?pn=1'
-# photo_url = 'http://imgsrc.baidu.com/forum/w%3D580/sign=4443180e3d292df597c3ac1d8c305ce2/94fed9ef76094b367c02c6cca4cc7cd98c109dd7.jpg'
-# sotzp = save_one_tie_zi_photos()
-# sotzp.save_all_pages_photos(url)

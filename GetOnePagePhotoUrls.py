@@ -23,8 +23,3 @@ class get_one_page_photo_urls:
             url = content['src']
             self.URLS.append(url)
         return self.URLS
-
-
-# tiezi_url = 'http://tieba.baidu.com/p/4226024634?pn=1'
-# goppu = get_one_page_photo_urls(tiezi_url)
-# print(goppu.get_photo_urls())

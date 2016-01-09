@@ -32,9 +32,3 @@ class get_all_tie_zi_urls:
             title=content['title']
             self.TITLES.append(title)
         return self.TITLES
-
-# url = 'http://tieba.baidu.com/f?ie=utf-8&kw=%E5%B7%B2%E5%A9%9A&fr=search'
-# gatzu = get_all_tie_zi_urls(url)
-# print(gatzu.get_contents())
-# print(gatzu.get_tie_zi_urls())
-# print(gatzu.get_tie_zi_title())

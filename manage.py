@@ -34,8 +34,8 @@ class run:
                 tie_zi_num += 1
 
 
-url = 'http://tieba.baidu.com/f?ie=utf-8&kw=%E5%B7%B2%E5%A9%9A&fr=search'
-path = 'G:\Code\img\\tieba\已婚\\'
+url = 'xxx'
+path = 'xxx'
 
 sun = run(url, path)
 sun.start()

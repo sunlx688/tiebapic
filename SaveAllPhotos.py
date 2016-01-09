@@ -21,8 +21,3 @@ class save_all_photos:
             tie_zi_url = tie_zi_url + '?pn=1'
             save_one_tie_zi_photos().save_all_pages_photos(tie_zi_url)
             sleep(self.RANDOM_NUM)
-
-
-# url = 'http://tieba.baidu.com/f?ie=utf-8&kw=%E5%B7%B2%E5%A9%9A&fr=search'
-# sap = save_all_photos(url)
-# sap.save_all_photos()
